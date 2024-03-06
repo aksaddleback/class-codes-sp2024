@@ -8,7 +8,8 @@ int main() {
     int num; 
     cin >> num; 
     for(int i = 0; i < 11; i++) {
-        cout << i << " x " << num << " = " << i * num << endl;
+        cout << num * i << " ";
+        //cout << i << " x " << num << " = " << i * num << endl;
     }
 
 }
