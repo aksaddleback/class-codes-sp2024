@@ -5,8 +5,9 @@
 using namespace std; 
 int main() { 
     int sum = 0; 
-    for(int i = 0; i <= 15; i++) { 
+    for(int i = 1; i <= 15; i++) { 
         //cout << i * i << endl;
         sum = sum + (i * i); 
     }
+    cout << sum << endl; 
 }
