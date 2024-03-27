@@ -6,7 +6,7 @@
 using namespace std; 
 int main() { 
     string s; 
-    cin >> s; 
+    getline(cin, s); 
     char ch1, ch2; 
     cin >> ch1 >> ch2; 
     
